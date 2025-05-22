@@ -1,0 +1,199 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    /* remove as linhas que alguns navegadores colocam em volta das âncoras */
+    list-style: none;
+    /* remove os efeitos das âncoras */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f4f1e9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: #f4f1e9;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /*Será a principal camada*/
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 300px;
+}
+
+.logo>img {
+    height: 90px;
+    margin-right: 15px;
+}
+
+/* MENU */
+.menu {
+    width: 900px;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu>ul>li>a:hover {
+    color: #cc3333;
+    font-weight: bold;
+}
+
+/*SEÇÃO HOME*/
+.linha_home {
+    display: flex;
+    justify-content: center;
+    background-color: #cc3333;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/imagemInicial.png);
+}
+
+/*OUTRAS SEÇÕES*/
+.linha {
+    display: flex;
+    justify-content: center;
+    background-color: #a0aab0;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    padding-top: 110px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 15em;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 30px;
+}
+
+.col-footer{
+    flex-grow:1; /*Ajusta o espaço sem desrespeitar o conteúdo das outras divs -> possibilita a retirada de widths*/
+}
+.d-col-footer{
+    flex-grow:2;
+}
+
+.logoInvertida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+.logoInvertida>img {
+    height: 100px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.endereco h2 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.endereco p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.icones-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: 28px;
+}
+
+.icones-sociais a {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s, transform 0.3s;
+    transform: scale(1.2);
+}
+
+.icones-sociais a:hover {
+    transform: scale(1.3);
+}
+
+.icones-sociais .whatsapp:hover {
+    color: #25D366;
+}
+
+.icones-sociais .facebook:hover {
+    color: #1877F2;
+}
+
+.icones-sociais .instagram:hover {
+    color: #eb5dad;
+}
+
+.icones-sociais .youtube:hover {
+    color: #FF0000;
+}
+
+.icones-sociais .tiktok:hover {
+    color: #610bb2;
+}
+
+.icones-sociais .twitter:hover {
+    color: #1DA1F2;
+}
+
+footer hr {
+    width: 90%;
+}
+
+footer h5 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
