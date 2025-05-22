@@ -19,7 +19,6 @@ body {
     flex-direction: column;
     height: 100%;
     background-color: #f4f1e9;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* HEADER */
@@ -64,9 +63,9 @@ header {
 .menu>ul>li>a {
     text-decoration: none;
     padding: 10px 40px;
-    color: #000000;
+    color: #353333;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .menu>ul>li>a:hover {
@@ -88,59 +87,100 @@ header {
 .linha {
     display: flex;
     justify-content: center;
-    background-color: #a0aab0;
+    background-color: #f4f1e9;
     width: 100%;
     height: 100vh;
-    border-bottom: 1px solid black;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1em;
     width: 1200px;
     height: 100%;
-    padding-top: 110px;
+    padding-top: 100px;
+}
+
+.container > h1 {
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 0;
+    color: #cc3333;
+}
+
+/*PRATOS*/
+.prato {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 40%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.prato img {
+    height: 65%;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.informacoes {
+    width: 100%;
+    height: 30%;
+    color: #353333;
 }
 
 /* FOOTER */
 footer {
+    margin-top: 100px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 15em;
-    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 30px;
+    width: 100%;
+    height: 200px;
+    background-color: #353333;
+    padding: 20px 0;
 }
 
-.col-footer{
-    flex-grow:1; /*Ajusta o espaço sem desrespeitar o conteúdo das outras divs -> possibilita a retirada de widths*/
-}
-.d-col-footer{
-    flex-grow:2;
+.parteSuperior {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 150px;
 }
 
 .logoInvertida {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20px;
 }
 
 .logoInvertida>img {
-    height: 100px;
+    width: 60%;
+    height: auto;
 }
 
 .endereco {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
 }
 
 .endereco h2 {
     font-family: "Open Sans", sans-serif;
     color: white;
+}
+
+.endereco h2:hover {
+    color: #cc3333;
 }
 
 .endereco p {
@@ -150,9 +190,8 @@ footer {
 
 .icones-sociais {
     display: flex;
-    justify-content: center;
     gap: 1em;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .icones-sociais a {
@@ -187,13 +226,4 @@ footer {
 
 .icones-sociais .twitter:hover {
     color: #1DA1F2;
-}
-
-footer hr {
-    width: 90%;
-}
-
-footer h5 {
-    font-family: "Open Sans", sans-serif;
-    color: white;
 }
