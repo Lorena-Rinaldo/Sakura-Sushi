@@ -4,10 +4,6 @@
   <img src="./assets/logo_invertida.png" alt="Sakura Sushi Logo">
 </p>
 
-<p align="center">
-  <img src="./assets/Sakura-Sushi.gif" alt="Demonstração do Cardápio">
-</p>
-
 Bem-vindo ao projeto do cardápio online do Sakura Sushi! Este site foi desenvolvido para permitir que os usuários visualizem de forma clara e atraente os diversos pratos oferecidos pelo restaurante, incluindo entradas, pratos quentes, combinados, sushis e sashimis.
 
 ## Índice
