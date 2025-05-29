@@ -66,6 +66,8 @@ A estrutura de arquivos e pastas do projeto está organizada da seguinte forma:
 
 .
 ├── assets/
+│   ├── favIcon.ico
+│   ├── videoInicial.mp4
 │   ├── carpaccioDeSalmao.png
 │   ├── edamame.png
 │   ├── gohanComDonburiDeFrango.png
@@ -81,8 +83,7 @@ A estrutura de arquivos e pastas do projeto está organizada da seguinte forma:
 │   ├── japaneseWhiskyHighball.png
 │   ├── chaVerdeJapones.png
 │   ├── ramune.png
-│   ├── calpico.png
-│   ├── imagemInicial.png     
+│   ├── calpico.png   
 │   ├── jowDeCamarao.png
 │   ├── katsuCurry.png
 │   ├── lamen.png
