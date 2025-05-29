@@ -74,6 +74,14 @@ A estrutura de arquivos e pastas do projeto está organizada da seguinte forma:
 │   ├── harumaki.png
 │   ├── hossomakiDePepino.png
 │   ├── hotRoll.png
+│   ├── cervejaJaponesa.png
+│   ├── saque.png
+│   ├── umeshu.png
+│   ├── shochu.png
+│   ├── japaneseWhiskyHighball.png
+│   ├── chaVerdeJapones.png
+│   ├── ramune.png
+│   ├── calpico.png
 │   ├── imagemInicial.png     
 │   ├── jowDeCamarao.png
 │   ├── katsuCurry.png
