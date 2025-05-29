@@ -15,7 +15,7 @@ Bem-vindo ao projeto do cardápio online do Sakura Sushi! Este site foi desenvol
 
 ## Sobre o Projeto
 
-O objetivo principal deste projeto é criar uma experiência digital agradável e intuitiva para os clientes do Sakura Sushi, facilitando a exploração do cardápio. O design busca ser moderno, limpo e alinhado com a identidade visual do restaurante, destacando a qualidade dos pratos através de imagens e informações claras.
+O objetivo principal deste projeto é criar uma experiência digital agradável e intuitiva para os clientes do Sakura Sushi, facilitando a exploração do cardápio. O design busca ser moderno, minimalista e alinhado com a identidade visual do restaurante, destacando a qualidade dos pratos através de imagens e informações claras.
 
 ## Tecnologias Utilizadas
 

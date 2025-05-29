@@ -9,34 +9,13 @@
     <link rel="stylesheet" href="./style.css">
 
     <!-- Importação dos ícones das redes sociais -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
     <!-- Importação dos ícones das estrelas de avaliação -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
     <!-- Importação do ícone do carrinho de compras -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="shortcut icon" href="./assets/favIcon.ico" type="image/x-icon">>
 </head>
 
 <body>
@@ -50,16 +29,23 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
                 <li><a href="#pratosQuentes">Pratos Quentes</a></li>
-                <li><a href="#combinados">Combinados</a></li>
                 <li><a href="#sushisSashimis">Sushis & Sashimis</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="linha_home" id="home">
-    <div class="container"></div>
-</section>
+        <video autoplay loop muted poster="./assets/imagemInicial.png" id="meuVideoDeFundo">
+            <source src="./assets/videoInicial.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+
+        <div class="texto-video">
+            <h1>Sakura Sushi: O Sabor <br> Autêntico do Japão.</h1>
+        </div>
+    </section>
 
     <section class="linha" id="entradas">
         <div class="container">
@@ -234,6 +220,188 @@
                     </div>
                     <div class="preco">
                         <p>R$19,90</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="linha" id="bebidas">
+        <div class="container">
+            <h1>Bebidas</h1>
+
+            <div class="prato">
+                <img src="./assets/sache.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Saquê (150ml)</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i> <!-- estrela vazia -->
+                    </div>
+                    <div class="preco">
+                        <p>R$25,50</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/cervejaJaponesa.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Cerveja Japonesa</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> <!-- meia estrela -->
+                    </div>
+                    <div class="preco">
+                        <p>R$20,75</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/umeshu.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Umeshu</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i> <!-- estrela vazia -->
+                    </div>
+                    <div class="preco">
+                        <p>R$24,90</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/shochu.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Shochu</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> <!-- meia estrela -->
+                    </div>
+                    <div class="preco">
+                        <p>R$30,90</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/japaneseWhiskyHighball.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Japanese Whisky Highball</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> <!-- meia estrela -->
+                    </div>
+                    <div class="preco">
+                        <p>R$35,90</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/chaVerdeJapones.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Chá Verde Japonês</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="preco">
+                        <p>R$14,90</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/ramune.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Ramune</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i> <!-- estrela vazia -->
+                    </div>
+                    <div class="preco">
+                        <p>R$17,60</p>
+                    </div>
+                </div>
+                <button class="carrinho">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+
+            <div class="prato">
+                <img src="./assets/calpico.png" alt="">
+                <div class="informacoes">
+                    <div class="nomeProduto">
+                        <h2>Calpis Water / Calpico</h2>
+                    </div>
+                    <div class="avaliacao">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="preco">
+                        <p>R$18,00</p>
                     </div>
                 </div>
                 <button class="carrinho">
@@ -425,188 +593,6 @@
         </div>
     </section>
 
-    <section class="linha" id="combinados">
-        <div class="container">
-            <h1>Combinados</h1>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> <!-- estrela vazia -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-
-            <div class="prato">
-                <img src="./assets/imagemInicial.png" alt="">
-                <div class="informacoes">
-                    <div class="nomeProduto">
-                        <h2>nome produto</h2>
-                    </div>
-                    <div class="avaliacao">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i> <!-- meia estrela -->
-                    </div>
-                    <div class="preco">
-                        <p>preco</p>
-                    </div>
-                </div>
-                <button class="carrinho">
-                    <i class="fas fa-shopping-cart"></i>
-                </button>
-            </div>
-        </div>
-    </section>
-
     <section class="linha" id="sushisSashimis">
         <div class="container">
             <h1>Sushis & Sashimis</h1>
@@ -659,7 +645,7 @@
                 <img src="./assets/hossomakiDePepino.png" alt="">
                 <div class="informacoes">
                     <div class="nomeProduto">
-                        <h2>Hossomaki de Pepino (Kappa Maki)</h2>
+                        <h2>Hossomaki de Pepino</h2>
                     </div>
                     <div class="avaliacao">
                         <i class="fas fa-star"></i>
@@ -804,17 +790,16 @@
                     CEP: 18409-070</p>
             </section>
             <section class="icones-sociais col-footer">
+                <a href="https://github.com/Lorena-Rinaldo" target="_blank"  class="github" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lorena-rinaldo01" target="_blank" class="linkedin" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin-in"></i></a>
                 <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
-                <a href="#" class="twitter"><i class="fab fa-x-twitter"></i></a>
             </section>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
