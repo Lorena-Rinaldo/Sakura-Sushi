@@ -50,13 +50,18 @@ Este projeto foi construído utilizando as seguintes tecnologias front-end:
 Para visualizar este projeto em sua máquina local:
 
 1.  *Clone o repositório (se estiver hospedado no GitHub, GitLab, etc.):*
-    bash
-    git clone https://lorena-rinaldo.github.io/Sakura-Sushi/
-    cd Sakura-Sushi
+
+       ```text
+    git clone https://lorena-rinaldo.github.io/Adivinhe-o-Numero/
+    ```
+    
+     ```text
+    cd Adivinhe-o-Numero
+     ```
     
     Se você já possui os arquivos localmente, pode pular esta etapa.
 
-2.  **Abra o arquivo index.html:**
+3.  **Abra o arquivo index.html:**
     *   Navegue até a pasta raiz do projeto no seu explorador de arquivos.
     *   Abra o arquivo index.html em qualquer navegador web moderno (como Google Chrome, Firefox, Edge).
 
